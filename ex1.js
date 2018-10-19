@@ -1,6 +1,6 @@
-function Main(input1, input2){
-    // input1 = parseInt(prompt("Please input your first number: "));
-    // input2 = parseInt(prompt("Please input your second number: "));
+function Main(){
+    input1 = parseInt(prompt("Please input your first number: "));
+    input2 = parseInt(prompt("Please input your second number: "));
     if (input2<input1){
         console.log("-1")
     }
@@ -13,4 +13,4 @@ function Main(input1, input2){
         }
     }
 }
-Main(1, 6);
+Main();
